@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+article { /* хто? */
+    /* що? */ /* як? */
+    background: coral;
+    color: #000
+}
+
+/* Селектори */
+.article-item{
+    font-size: 16px;
+}
+
+section{
+
+}
+.blog{
+    
+}
+#first-section {
+    text-align: inherit
+}
+header {
+    width: 50%;
+    text-align: center; /* вирiвнювання тексту та рядкових елементiв */
+    margin: 0 auto; /* вирiвняння блокiв */
+}
+nav {
+    width: 50%;
+    display: inline-block;
+}
+article h2 {
+    color: steelblue;
+}
+nav a {
+    text-decoration: none;
+}
+/* .menu-link {
+    text-decoration: overline;
+} */
+/*
+
+div - 1
+.class - 10
+#id - 100
+inline - 1000
+*/
+
+.box {
+    height: 200px;
+    width: 300px;
+    background-color: violet;
+    margin: 100px auto;
+    transition: all .5s;
+}
+.box:hover {
+    width: 500px;
+    background-color: olive;
+}
+.article-item:hover {
+    box-shadow: 0 0 20px #000;
+}
+
+header, main {
+    width: 1200px;
+    margin: 0 auto;
+}
+input[type=text],
+input[type=checkbox],
+input[type=radio],
+input[type=button] {
+    border-radius: 25px;
+}
+
+.custom-list li::before {
+}
+
+.test-link:visited {
+    color: brown;
+}
+.test-link:active {
+    color: chocolate;
+}
+.test-link:focus {
+    color: royalblue;
+}
+
+.structure-list li:nth-child(odd) {
+    color: darkorange;
+}
+.structure-list li:nth-child(even) {
+    color: darkorchid;
+}
+.structure-list li:nth-child(n+6) {
+    background: deepskyblue;
+}
+.structure-list li:first-child {
+    text-transform: uppercase;
+}
+.structure-list li:last-child {
+    text-transform: capitalize;
+}
+
+.structure-list h2:nth-child(8) {
+    background: fuchsia;
+}
+.bg-1 {
+    background: url(../img/Без\ имени-1.jpg) center top / cover no-repeat;
+    background-attachment: fixed;
+}
+.bg-2 {
+    height: 500px;
+    background-image: url(../img/Без\ имени-1.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.block {
+    background-color: blanchedalmond;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+    margin: 70px 30px 20px 60px;
+    margin: 50px 35px;
+    margin: 1000px 20px 40px;
+    margin: 30px;
+    padding: 35px;
+    border-left: 20px solid #000;
+    border-right: 20px solid #000;
+    border-style: groove;
+    border-radius: 10px 100px;
+    box-shadow: 0 0 50px #777;
+}
